@@ -1,0 +1,8 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "agent": "./langchain_tool_agent.py:make_graph"
+  },
+  "env": ".env",
+  "python_version": "3.12"
+}

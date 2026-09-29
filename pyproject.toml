@@ -1,0 +1,26 @@
+[project]
+name = "week2-langchain-agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-genai>=1.26.0",
+    "langchain[google-genai]>=0.3.26",
+    "langchain-community>=0.3.27",
+    "langchain-core>=0.3.69",
+    "langchain-google-genai>=2.1.8",
+    "python-dotenv>=1.1.1",
+    "yfinance>=0.2.65",
+    "youtube-search>=2.1.2",
+    "ipykernel>=6.30.0",
+    "streamlit>=1.55.0",
+    "langgraph-sdk>=0.3.9",
+    "langchain-mcp-adapters>=0.3.2",
+    "langchain-groq>=1.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "langgraph-cli[inmem]>=0.4.14",
+]

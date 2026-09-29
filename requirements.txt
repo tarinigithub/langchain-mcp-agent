@@ -1,0 +1,14 @@
+yfinance
+python-dotenv
+google-genai
+langchain
+langchain-google-genai
+langchain-core
+langchain-community
+langchain[google-genai]
+youtube_search
+streamlit
+langgraph-sdk
+langgraph-cli[inmem]
+langchain-mcp-adapters
+langchain-groq
